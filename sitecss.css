@@ -1,0 +1,215 @@
+*{
+	margin:0px;
+	padding:0;
+}
+body{
+	
+}
+.main{
+	width:100%;
+	height:auto;
+	background-color:white;
+	min-height:500px;
+	margin:0 auto;		
+}
+.topbar{
+	width:100%;
+	height:4px;
+	background-color: #fcc508;
+	
+}
+.social_icon{
+	width:100%;
+	height:30px;
+	background-color:#2a2b2c;
+}
+#input{
+	padding:8px;
+	margin-left:10px;
+}
+#button{
+	padding:8px;
+	border-radius:50%;
+	border:1px solid black;
+}
+.banners{
+	height:450px;
+	width:100%;
+	background-image:url("https://images-na.ssl-images-amazon.com/images/G/31/img21/Plus-size/april/ingress/PS_ethnic_women_scroll_01._CB656228733_.jpg");
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	animation-name:anime;
+	animation-duration:16s;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+}
+@keyframes anime{
+	0%{background-image:url("https://images-na.ssl-images-amazon.com/images/G/31/img21/Plus-size/april/ingress/PS_ethnic_women_scroll_01._CB656228733_.jpg");}
+	35%{background-image:url("https://images-na.ssl-images-amazon.com/images/G/31/img2020/fashion/WA_2020/WWnewstore/PC/pcbanner._CB427862063_.jpg");}
+	75%{background-image:url("https://s1-ecp.esigns.com/sms/imagebox/10/947/Retail-Business_Imagebox_519x200.png");}
+}
+#ad1{
+	width:10%;
+	height:500px;
+	border:1px solid black;
+	float:left;
+	display:flex;
+}
+#product{
+	width:79%;
+	height:auto;
+	border:1px solid black;
+	float:left;
+}
+#ad2{
+	width:10%;
+	height:500px;
+	border:1px solid black;
+	float:left;
+}
+
+#heading{
+	background-color:violet;
+	margin-bottom:20px;
+	margin-top:20px;
+	padding:5px;
+	background:linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+}
+.zoom1{
+	height:auto;
+	overflow:hidden;
+	
+}
+.zoom1 img{
+	width:100%;
+	display:block;
+	transition:transform 1s;
+}
+.zoom1:hover img{
+	transform:scale(0.9);
+}
+.zoom2{
+	height:auto;
+	overflow:hidden;
+}
+.zoom2 img{
+	width:100%;
+	display:block;
+	transition:transform 2s;
+}
+.zoom2:hover img{
+	transform:scale(0.9);
+}
+.zoom3{
+	height:auto;
+	overflow:hidden;
+}
+.zoom3 img{
+	width:100%;
+	display:block;
+	transition:transform 2s;
+}
+.zoom3:hover img{
+	transform:scale(0.9);
+}
+#foot{
+	float:center;
+	color:#d9d9d9;
+}
+footer{
+	display:flex;
+	bottom:0px;
+	width:100%;
+	background:#111;
+	color:#d9d9d9;
+}
+#foot{
+	display:flex;
+}
+#foot .box{
+	flex-basis: 50%;
+	padding:10px 20px;
+}
+.box h2{
+	font-size:1.125rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.box .content{
+	margin: 20px 0 0 0;
+}
+.box .content p{
+	text-align: justify;	
+}
+.box .content .social{
+	margin: 20px 0 0 0;
+}
+.box .content .social a{
+	padding: 0 1px;
+}
+.box .content .social a span{
+	height:40px;
+	width: 40px;
+	background: #1a1a1a;
+	line-height: 40px;
+	text-align:center;
+	font-size: 18px;
+	border-radius: 5px;
+	transition:0.5s;
+}
+.left .content .social a span:hover{
+	background: #f12020;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<td id="search_icon" width="45%" >
+===1st===
+https://static.fibre2fashion.com/MemberResources/LeadResources/1/2019/7/Seller/19166782/Images/19166782_0_women-ethnic-wear.jpg?tr=w-320,h-320,cm-pad_resize,bg-F3F3F3
+ 
+==2==
+https://assets.panashindia.com/media/catalog/product/cache/4/small_image/262x377/9df78eab33525d08d6e5fb8d27136e95/1/9/1931sl02-40006.jpg
+
+==3==
+https://assets.panashindia.com/media/catalog/product/cache/4/small_image/262x377/9df78eab33525d08d6e5fb8d27136e95/3/8/3898sl08-lfschinon.jpg
+
+<img src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/search-line-icon.svg" width="20px">
+<div class="search-container">
+	<td >
+	<form action="/action_page.php">
+	<input type="text" placeholder="Search..." name="search">
+      	<button type="submit" class="search">
+<img src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/search-line-icon.svg" width="30px">
+	<i class="fa fa-search">
+	</i>
+	</button>
+    	</form>https://img.freepik.com/premium-vector/banner-ease-shopping-online-shop-anytime-anywhere_435359-68.jpg?w=740" width="100%" height="50%	</div>
+<i class="fa fa-search">https://indiater.com/wp-content/uploads/2020/05/new-lifestyle-fashion-online-shopping-promo-banner-free-psd-template-990x483.jpg</i>
+
+</td>-->
+
