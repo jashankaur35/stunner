@@ -1,0 +1,260 @@
+*{
+	margin:0px;
+	padding:0;
+}
+.main{
+	width:100%;
+	height:auto;
+	background-color:white;
+	min-height:500px;
+	margin:0 auto;
+}
+.topbar{
+	width:100%;
+	height:4px;
+	background-color: #fcc508;
+	
+}
+.social_icon{
+	width:100%;
+	height:30px;
+	background-color:#2a2b2c;
+}
+.soc a span{
+	line-height: 20px;
+	text-align:center;
+	border-radius: 5px;
+}
+#hov1:hover{
+	background:linear-gradient(15deg, #56d8e4 10%, #9f01ea 90%);
+}
+#hov2:hover{
+	background:linear-gradient(15deg, #56d8e4 10%, #9f01ea 90%);
+}
+#hov3:hover{
+	background:linear-gradient(15deg, #56d8e4 10%, #9f01ea 90%);
+}
+#hov4:hover{
+	background:linear-gradient(15deg, #56d8e4 10%, #9f01ea 90%);
+}
+#hov5:hover{
+	background:linear-gradient(15deg, #56d8e4 10%, #9f01ea 90%);
+}
+#input{
+	padding:8px;
+	margin-left:10px;
+}
+#button{
+	padding:8px;
+	border-radius:50%;
+	border:1px solid black;
+}
+#stcki{
+	position:sticky;
+	left:0;
+	top:0;
+}
+#home a{
+	text-decoration:none;
+}
+#home:hover{
+	background:linear-gradient(15deg, #56d8e4 10%, #9f01ea 90%);
+}
+#next a{
+	text-decoration:none;
+}
+#next:hover{
+	background:linear-gradient(15deg, #56d8e4 10%, #9f01ea 90%);
+}
+#abus a{
+	text-decoration:none;
+}
+#abus:hover{
+	background:linear-gradient(15deg, #56d8e4 10%, #9f01ea 90%);
+}
+#cont a{
+	text-decoration:none;
+}
+#cont:hover{
+	background:linear-gradient(15deg, #56d8e4 10%, #9f01ea 90%);
+}
+#sin a{
+	text-decoration:none;
+}
+#sin:hover{
+	background:linear-gradient(15deg, #56d8e4 10%, #9f01ea 90%);
+}
+#bck a{
+	text-decoration:none;
+}
+#li1:hover{
+	background:linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+}
+#li2:hover{
+	background:linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+}
+#li3:hover{
+	background:linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+}
+#li4:hover{
+	background:linear-gradient(15deg, #56d8e4 10%, #9f01ea 90%);
+}
+#li5:hover{
+	background:linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+}
+#li6:hover{
+	background:linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+}
+#li7:hover{
+	background:linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+}
+.section{
+	background:linear-gradient(160deg, #51ffd7 10%, #ff25b2 90%);
+	width:100%;
+	height:auto;
+}
+.section .containrr{
+	width:80%;
+	display: block;
+	margin: 0px auto;
+	padding:50px 0px;
+}
+.containrr .title{
+	width:100%;
+	text-align:center;	
+	margin-bottom:50px;
+}
+.containrr .title h1{
+	text-transform: uppercase;
+	font-size: 35px;
+	color:#1004cf;
+}
+.containrr .title h1::after{
+	content:"";
+	height:4px;
+	width:141px;
+	background-color:#0304ff;
+	border-radius:25px;
+	display:block;
+	margin:auto;
+}
+.cant{
+	float:left;
+	width:55%
+}
+.image-section{
+	float:right;
+	width:40%;
+}
+.image-section img{
+	width:100%;
+	height:250px;
+}
+.cant .article h3{
+	color:#302b2b;
+	font-size:21px;
+}
+.cant .article p{
+	margin-top:20px;
+	font-size:19px;
+	line-height:1.5;
+	color:#333;
+}
+.cant .article .link{
+	margin-top:50px;
+}
+.cant .article .link a{
+	text-decoration:none;
+	padding:8px 25px;
+	background:linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+	color:#fff;
+	font-size:18px;
+	letter-spacing:1.5px;
+	border-radius:40px;
+}
+.cant .article .link a:hover{
+	color:black;
+	transition:1.5s ease;
+}
+.containrr .media{
+	width:100%;
+	clear:both;
+	margin-top:50px;
+	text-align:center;
+	display:inline-block;
+}
+.containrr .media span{
+	color:#fff;	
+	font-size:22px;
+	height:45px;
+	width:45px;
+	border-radius:50px;
+	line-height:45px;
+	text-align:center;
+	background-color:#58778f;
+	margin:0px 5px;
+}
+.containrr .media span:hover{
+	background-color:black;
+}
+#foot{
+	float:center;
+	color:#fff;
+}
+footer{
+	display:flex;
+	bottom:0px;
+	width:100%;
+	background:#111;
+	color:#d9d9d9;
+}
+#foot{
+	display:flex;
+}
+#foot .box{
+	flex-basis: 50%;
+	padding:10px 20px;
+}
+.box h2{
+	font-size:1.125rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.box .content{
+	margin: 20px 0 0 0;
+}
+.box .content p{
+	text-align: justify;	
+}
+.box .content .social{
+	margin: 20px 0 0 0;
+}
+.box .content .social a{
+	padding: 0 1px;
+}
+.box .content .social a span{
+	height:40px;
+	width: 40px;
+	background: #1a1a1a;
+	line-height: 40px;
+	text-align:center;
+	font-size: 18px;
+	border-radius: 5px;
+	transition:0.5s;
+}
+.left .content .social a span:hover{
+	background: #f12020;
+}
+.btn .sendd{
+	margin:10px 0;
+	padding:6px;
+	font-weight:600;
+	color:white;
+	background-color:gray;
+	transition: all 0.5s ease;
+	cursor:pointer;
+	border-radius:10px;
+}
+.btn .sendd:hover{
+	background-color:red;
+}
