@@ -1,9 +1,10 @@
 *{
 	margin:0px;
 	padding:0;
+	box-sizing:border-box;
 }
 #nan{
-	width:auto;
+	width:100%;
 }
 .raone a span{
 	height:;
@@ -141,13 +142,14 @@
 	flex-wrap:wrap;
 }
 #feature .fe-box{
-	width: 100px;
+	width: 169px;
 	text-align:center;
 	padding: 25px 15px;
-box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+	box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
 	border: 1px solid #cce7d0;
 	border-radius:14px;
 	margin:15px 0;
+	cursor:pointer;
 }
 #feature .fe-box:hover{
 box-shadow:10px 10px 54px rgba
@@ -160,7 +162,7 @@ box-shadow:10px 10px 54px rgba
 #feature .fe-box h6{
 	display:inline-block;
 	padding:9px 8px 6px 8px;
-	line-height: 1;
+	line-height: 2;
 	border-radius: 4px;
 	color: #088178;
 	background:linear-gradient(15deg, #11F6EB 10%, #E514E0 90%);
@@ -343,4 +345,4 @@ footer{
 }
 .left .content .social a span:hover{
 	background: #f12020;
-} 
+}
